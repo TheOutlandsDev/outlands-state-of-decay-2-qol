@@ -1,0 +1,86 @@
+{
+  "status": "STATIC_VALIDATION_PASSED",
+  "pak_count": 17,
+  "payloads_verified": 1335,
+  "unique_assets": 1317,
+  "conflicting_assets": 0,
+  "registered_actors": 8,
+  "custom_references": 36,
+  "runtime_tested": false,
+  "pak_manifest": [
+    {
+      "file": "000-0ModIntegration_P.pak",
+      "sha256": "400de7a8dce8a0970a6b6709b0e1b2ec2abd5cdb2af578fd5ba0bb56a5dd7824"
+    },
+    {
+      "file": "002-BaseLightsAlwaysOn_P.pak",
+      "sha256": "27da47b8bf0f2f02861699c1361a9f927de850095c61d4cf06458adb932c3725"
+    },
+    {
+      "file": "003-ImprovedBaseFacilities_P.pak",
+      "sha256": "3e324658a31804d320c32e2a6c2e7a3fa85c0f334ce7bd0d47c242d27da0c031"
+    },
+    {
+      "file": "010-Expand_Your_Base_Mod_P.pak",
+      "sha256": "14d4b41b981a1e979a21ee697ed30d6f9711fdbcb0ec986620fa2588f93a20f9"
+    },
+    {
+      "file": "011-Resident_Evil_Integrated_Mod_P.pak",
+      "sha256": "24c4d0f8d04d83f939e80a26bc93f0f093fff36e0fb738d37510e70661ff7c14"
+    },
+    {
+      "file": "012-4CoreSpec_P.pak",
+      "sha256": "a4dd680f0059226aae7061169bda686449573b82d3610fcabf741b7664ff12b0"
+    },
+    {
+      "file": "023-ARMY_Outfits_Integrated_Mod_P.pak",
+      "sha256": "38fc5bcb027c594ce629829d06c46521fc36f8976d2c6469f3dcbe52c1f6fa0f"
+    },
+    {
+      "file": "024-BetterDaybreakRewards_P.pak",
+      "sha256": "d2c266bce285107bffdc966389ee8cac6795e053a1f6a5cb1fbf247c799f1c94"
+    },
+    {
+      "file": "100-8SlotBackpacks_P.pak",
+      "sha256": "354c15f0ac585f9b033184b4ce23d962b56a94b6763881de524c41b96bb612c4"
+    },
+    {
+      "file": "110-AuthenticAutosVSUS_P.pak",
+      "sha256": "fbb35bc53e85e409979b45df3d75beac3e4f2f3493f041178d656be593178901"
+    },
+    {
+      "file": "120-AllBounty_P.pak",
+      "sha256": "be49a934f6a2fc93b2645de5ae34464e922aaa2e37bef73f9ca7b78dbbaa55a0"
+    },
+    {
+      "file": "130-TNRUClock_P.pak",
+      "sha256": "27f15aaa80c62974fe7e3d6551dbf0cb7385531b4585f6bf0292bf27aec05427"
+    },
+    {
+      "file": "140-FollowerHealthBar_P.pak",
+      "sha256": "ab3c7122f2d174572e34a2286ebfd10437289cb3f4b70add8595ed3c8326374d"
+    },
+    {
+      "file": "160-Brian's Longer Mission Timers_P.pak",
+      "sha256": "01a39bbd060fea2e2e207020e7bc1fb1f641bebcafb1367bd1578a09e5d9d54e"
+    },
+    {
+      "file": "170-MrYummi_FirstPersonMode_P.pak",
+      "sha256": "89e3cd987651a3c3d43804d72ae4c17494b385e91e776c7c85c0a0bda4075d8b"
+    },
+    {
+      "file": "180-EnclaveEditorV3_P.pak",
+      "sha256": "0be6deb81bc88f4f374ea827ada07d0f51277395870c531a85fe8efcb1c1da8e"
+    },
+    {
+      "file": "190-2xInfluenceActivityRewards_P.pak",
+      "sha256": "0e1310ba9912976932509096187b9fbedf13d6df67a18364637767426547119c"
+    }
+  ],
+  "date": "2026-10-25",
+  "profile_revision": "2026-10-22",
+  "source_rebuild_matches_installed_paks": 17,
+  "unit_and_fixture_tests_passed": 10,
+  "install_rollback_fixture_preserves_new_progress": true,
+  "live_installation_modified": false
+}

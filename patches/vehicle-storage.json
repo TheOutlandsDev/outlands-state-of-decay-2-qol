@@ -1,0 +1,720 @@
+{
+  "description": "Private local 100-slot cargo recipe; original author PAK required. No game or mod bytes included.",
+  "patches": [
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/4wheeler_Apoc/Vehicle_4wheeler_Apoc_Def.uasset",
+      "before_sha256": "a3ee167b89e129cf3442de3c143917aa7207073f4946e702230a2426d9429a61",
+      "after_sha256": "0fd86aef415a33aa353ed5b3186740e7533c4fc539848d1044604341cbab713d",
+      "edits": [
+        {
+          "offset": 4536,
+          "before": 1,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/4wheeler_Basic/Vehicle_4wheeler_Basic_Def.uasset",
+      "before_sha256": "d9bf0ff9de03f55f82cf9de528e6e93f90a03f1ba4352e19c5a9eb35c64f4cbe",
+      "after_sha256": "7121e0bd48ec7498237d0c88f4ca43e8c286a5ba0eba7ab643b7ebfb5dd72f05",
+      "edits": [
+        {
+          "offset": 4561,
+          "before": 18,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/4wheeler_Basic/Vehicle_4wheeler_Retailer_Def.uasset",
+      "before_sha256": "6d493ff6e93e278c8676b59fb3d4c3529736907553095eb0f49b824b7a0817a9",
+      "after_sha256": "e761e90d2caf2620fb1c1fe9da56035ecd4751e8a46e204323701baadd960bd0",
+      "edits": [
+        {
+          "offset": 4570,
+          "before": 18,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/4wheeler_Sport/Vehicle_4wheeler_Sport_Def.uasset",
+      "before_sha256": "2a00e48221fa9261aa72924d57cef9841a6eef13bbfad51dfc0ecd7683799bc1",
+      "after_sha256": "31d19302359efda548c0f8bded5e411fffac1577de396071206fcff696192d6a",
+      "edits": [
+        {
+          "offset": 4582,
+          "before": 18,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/GolfCart_DLC2/GolfCart_DLC2_Def.uasset",
+      "before_sha256": "e8b0ac3ebcd17dc330f850e670ade9aeb1e8b0ba9cfb3da0c42b8a37c900a94c",
+      "after_sha256": "f47018432f19ebc25d707c1267a5f80b1b4ac6f59637e55a3a0246a8d9f2dde1",
+      "edits": [
+        {
+          "offset": 3804,
+          "before": 300,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_Apoc/Vehicle_Hatchback_Apoc_Def.uasset",
+      "before_sha256": "baecb68f2e92e4d5b2693568cc97e85443f918fd87f5beddce9a5c6eb987ceb6",
+      "after_sha256": "5224014bf1b680b7c25fdeba32ba7707953872bbad08fd8af6cd8b3c7d28bbaf",
+      "edits": [
+        {
+          "offset": 4375,
+          "before": 7,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_Basic/Vehicle_Hatchback_Basic_Def.uasset",
+      "before_sha256": "2d5aa10e3693024f79e90dda0206c0d6f7a314cef203d4e782b9fc86467e2635",
+      "after_sha256": "e14e3a2b33b66028a26608c18a0abec84b39350d3ed9365ca5a9f1b62c282be4",
+      "edits": [
+        {
+          "offset": 4477,
+          "before": 7,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_Basic/Vehicle_Hatchback_Retailer_Anime_Def.uasset",
+      "before_sha256": "4e25a6949714964a5922be847c10a1cb4e24f9c5945f97cbdf9fd0b6422fbd54",
+      "after_sha256": "b0fe9ceed3e60ccfd2330afd3fb47ceb6ff5f440392a1adb99066bbd11d0af6e",
+      "edits": [
+        {
+          "offset": 4504,
+          "before": 7,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_Basic/Vehicle_Hatchback_Retailer_PizzaCat_Def.uasset",
+      "before_sha256": "d5a534779d568222584ec20e0b7d022702cd77f60500130c1320a4995ea76a7d",
+      "after_sha256": "12d2c69dcf19d8ab64d9bba49ebdfc06ea616e5ef23ef74215706d446bff78f3",
+      "edits": [
+        {
+          "offset": 4513,
+          "before": 7,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_RoadTrip/Vehicle_Hatchback_RoadTrip_Def.uasset",
+      "before_sha256": "5b88aa8a45fde7a855d5067eda5b184dd0e4d327e51572168739a18dfb8c88ea",
+      "after_sha256": "55d1a6e9e8d91e4576c8e9daba5cd163ec9f0f720e01a3b2b93cd4e14ce992ba",
+      "edits": [
+        {
+          "offset": 4433,
+          "before": 10,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_Scout/Vehicle_Hatchback_Scout_Def.uasset",
+      "before_sha256": "b6ae7125df09ed743ffb55377ba0fedaaa909a61fe0548aebaec36ba86d815b6",
+      "after_sha256": "6d9726743f1695ad586a9859639a6c2d02555b711fa1f99a5f338fa95c19712f",
+      "edits": [
+        {
+          "offset": 4435,
+          "before": 7,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Hatchback_Sport/Vehicle_Hatchback_Sport_Def.uasset",
+      "before_sha256": "6353765e6214f551373facaa6f9e2f9e6c0a26cec8320b08bf4e54e91197acc3",
+      "after_sha256": "9562ae9fbc570eaae5baeb48898bcdf42baf6c0302011db4518ecfa925b22be9",
+      "edits": [
+        {
+          "offset": 4538,
+          "before": 7,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Muscle_Apoc_SoT_Meg_01/Vehicle_Muscle_Megalodon_Def.uasset",
+      "before_sha256": "05868e51f7ace03d175da7a91a390b7a433b664c0b84fc47b971dfb4b6a90416",
+      "after_sha256": "9ed2d144799da9788247626592a2c84e026dc5eaa72f671c3c8bb4b6b595e8bf",
+      "edits": [
+        {
+          "offset": 4538,
+          "before": 1,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Muscle_Basic/Vehicle_Muscle_Basic_Def.uasset",
+      "before_sha256": "3c19a52300ce8dfb6edcdf1dde174166124dde0651146b01c2fa0af044bccaea",
+      "after_sha256": "c74f68ba8d0070b5a844e0a39ce361b4823c523e43ad0efaf83f6b76f6f3ce26",
+      "edits": [
+        {
+          "offset": 4421,
+          "before": 8,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Muscle_Maximized/Vehicle_Muscle_Maximized_Def.uasset",
+      "before_sha256": "498c657e5ae0befa830638d57bc77a1d986e8247086534e158eda13371ba7376",
+      "after_sha256": "ce83ab1da43a9f2934eec9b46a43cf33978214606d565e68e468895bcbb5daf1",
+      "edits": [
+        {
+          "offset": 4520,
+          "before": 1,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Plane_SmallProp/Vehicle_Small_Plane_Basic_Def.uasset",
+      "before_sha256": "9187e78be5f13779159021bcaa841fd45826f794d9796134b558dde6863e966c",
+      "after_sha256": "813d6e8fdcd6c9fd4ebdad89b0faf7e89cd7099a55e41eb68adecc087c916fee",
+      "edits": [
+        {
+          "offset": 4487,
+          "before": 3,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/RV_Basic/RV_Basic_Def.uasset",
+      "before_sha256": "66a077700474254709f9d2c8f1f9dd34dd8c6cfffd01dfb81d544bdc015601d3",
+      "after_sha256": "e679ee39c237a1c17793d6d689b9c35e9e4895e5b1b8dae7bc2b716cf378f28d",
+      "edits": [
+        {
+          "offset": 4311,
+          "before": 15,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/SUV_Modern_Apoc/Vehicle_SUV_Modern_Apoc_Def.uasset",
+      "before_sha256": "e8c44bb52be3574f611dccbfd5f27cbee06a3d61ed29c6d52e708424248e6056",
+      "after_sha256": "6e809adf664f217638a9a8a82586c3853406072e13bfd73b486004bc6546dd08",
+      "edits": [
+        {
+          "offset": 4540,
+          "before": 31,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/SUV_Modern_Basic/Vehicle_SUV_Modern_Basic_Def.uasset",
+      "before_sha256": "21bd1cb95403ca37a65cf4c51d172feff83f5643ccaa7e5526c00b75024abf39",
+      "after_sha256": "f2ab55b342fcc91b5516cf763dc8790b57cfa2f262e260a2b2a7fd66b1190fe2",
+      "edits": [
+        {
+          "offset": 4555,
+          "before": 31,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/SUV_Modern_Basic/Vehicle_SUV_Modern_Retailer_Def.uasset",
+      "before_sha256": "65f737d027fd2929435e1e6bfe8736d75f05da32907c94b1dfabfa6648415c40",
+      "after_sha256": "304c35653e151401d7b87084b45b1c34c2fb70a9c6c142050d63773abd1820d3",
+      "edits": [
+        {
+          "offset": 4585,
+          "before": 31,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/SUV_Modern_Police/Vehicle_SUV_Modern_Police_Def.uasset",
+      "before_sha256": "1e61b94f97c983affbd5dff62c18f3ba5671631573591bc74ec6beeee0303d5c",
+      "after_sha256": "3ca150317266443af12b5895bc138e579877ae6239046adf446a290796cf04b8",
+      "edits": [
+        {
+          "offset": 4628,
+          "before": 31,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/SUV_Modern_RedTalon/Vehicle_SUV_Modern_RedTalon_Def.uasset",
+      "before_sha256": "51d2b6fa580a9d4081caf3ed93a3353c34a3b5fb43d1a17e05f34b21283b58bd",
+      "after_sha256": "8aa197c3e8392744a6e8576e40c52ad8833c778b02a5b0f4254bb4d47eaabe4d",
+      "edits": [
+        {
+          "offset": 4597,
+          "before": 31,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Iconic_Apoc/Vehicle_Sedan_Iconic_Apoc_Def.uasset",
+      "before_sha256": "0656c307be95dcc18cdefd561ce9fcda0f25d25a9b639012c29c8699cbe3ecef",
+      "after_sha256": "ab722dd5199b5818e5b6a6bef7a7096b2ecda9589fbdfd06b0b8347460080445",
+      "edits": [
+        {
+          "offset": 4297,
+          "before": 11,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Iconic_Basic/Vehicle_Sedan_Iconic_Basic_Def.uasset",
+      "before_sha256": "cb06e18ce8e09e1d51f8ca21638abedc37c3ae1b98fb4c3cf2feea15e151d862",
+      "after_sha256": "73f2c6b5b5d19286a8a6ea82989393b08b57ac6e760d9e37072a2a899b16ff6f",
+      "edits": [
+        {
+          "offset": 4267,
+          "before": 11,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Iconic_Basic/Vehicle_Sedan_Iconic_Unmark_Def.uasset",
+      "before_sha256": "975633f4f4abbbe527aa1c5b3288f9b089be5807df0af1bd26ab74004dbaa35a",
+      "after_sha256": "9e78afb9c6b1d40be9b2f86149b10063838992153285e47d4ebc1d93aeaededc",
+      "edits": [
+        {
+          "offset": 4387,
+          "before": 11,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Iconic_Police/Vehicle_Sedan_Iconic_Police_Def.uasset",
+      "before_sha256": "e70d230aad00bdf93b92fbafdfe907cad6e10a7c8ff00ea4a13a3ed3f441c7b5",
+      "after_sha256": "bfc273b4431ef670f862836d65cfd0fc0bc1914122b5d8949f9b95183949e3b3",
+      "edits": [
+        {
+          "offset": 4388,
+          "before": 11,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Iconic_Taxi/Vehicle_Sedan_Iconic_Taxi_Def.uasset",
+      "before_sha256": "12e52ad2892aab86636e5c933a7cc9d171a7011db3311a22730892eb18a8d1f0",
+      "after_sha256": "2180c3a1e871904d6a490fe95471c2e3850da5c522c6e10cc5e4b586a320709b",
+      "edits": [
+        {
+          "offset": 4257,
+          "before": 11,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Modern_Apoc/Vehicle_Sedan_Modern_Apoc_Def.uasset",
+      "before_sha256": "6c0e9be2103b6359eec410c4959e2a4cd0c1b6bee548003e928c31b3e7b632a4",
+      "after_sha256": "35afc14425fb96153be10543a7f1a8f2b118d3657a01a123b9cc742393edb819",
+      "edits": [
+        {
+          "offset": 4297,
+          "before": 11,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Modern_Basic/Vehicle_Sedan_Modern_Basic_Def.uasset",
+      "before_sha256": "ad715c490e109318f252d2a730e73f9d8ba05088fcc6d260821eafdcc3ad0efa",
+      "after_sha256": "f9a7f418e8e8784729e16a6f165eaea9b2ddce008e9082163fa87a8536ac33e8",
+      "edits": [
+        {
+          "offset": 4295,
+          "before": 8,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Modern_Basic/Vehicle_Sedan_Modern_Retailer_Barbed_Def.uasset",
+      "before_sha256": "7b7d40b3c1039cd7952c8b2292da55e7395df604fcf33fdd3fda98c4677c173d",
+      "after_sha256": "ff639cf1143c2f483e3203636dd1a8c88658b399d21fe5f2e8b9cfe6f7f464fa",
+      "edits": [
+        {
+          "offset": 4335,
+          "before": 8,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Modern_Basic/Vehicle_Sedan_Modern_Retailer_Def.uasset",
+      "before_sha256": "74586153d6531c29d4929b6faee0fe7dbbdb4654c52f1f5c4b94331ff06001aa",
+      "after_sha256": "307477f0a67737db3af2325ed1a5e4b31ad3ab50176c7937c65fe6e3ced318ad",
+      "edits": [
+        {
+          "offset": 4314,
+          "before": 8,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Modern_Sport/Vehicle_Sedan_Modern_Sport_Def.uasset",
+      "before_sha256": "5ecbcd050bb422489c1afdc35e0761d64ad466b4142de5c65f197fce3ab1d9de",
+      "after_sha256": "78a618ed34056512772b73290e86421883f12f5cd71bef7edf72c0a2e01928a7",
+      "edits": [
+        {
+          "offset": 4318,
+          "before": 8,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Old_Apoc/Vehicle_Sedan_Old427_Apoc_Def.uasset",
+      "before_sha256": "4e6f389bfca59d6271236d7673e76ab820ca362af7f3bb9c0aee9dfae6494425",
+      "after_sha256": "7f9f5a1c0b036b9187f95691bbb154f52252e3f3829058f383f0db53764b7cd6",
+      "edits": [
+        {
+          "offset": 4501,
+          "before": 10,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Old_Apoc/Vehicle_Sedan_Old_Apoc_Def.uasset",
+      "before_sha256": "10a384339bfc6b22a98370f395d42750227f53e2bf3850fefdb1c24c572b4608",
+      "after_sha256": "09b64b985f6a5186f47a06aa21b4e9b0667c30a7d60eb2f26c0489e0e0978082",
+      "edits": [
+        {
+          "offset": 4484,
+          "before": 10,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sedan_Old_Basic/Vehicle_Sedan_Old_Basic_Def.uasset",
+      "before_sha256": "4ab64b26f8d223d0d3e8a452be1c6c8a34e789646a57c6f30bbb6e2727bf612e",
+      "after_sha256": "9eb0bd49b9d102de20043b754c76793d45a9b2714fc6e70ad46d7f6ac0f87afa",
+      "edits": [
+        {
+          "offset": 4476,
+          "before": 10,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sport_Coupe_Apoc/Vehicle_sport_coupe_apoc_Def.uasset",
+      "before_sha256": "639c7648b54ee304ddc4299b43e0ca2f33f0e96ef6f954d8d0ba8a4e221f2531",
+      "after_sha256": "2b6d3fbd524916f9c17b62565b9ef81efdebb1d8ea02824d54ebfacc8360ba47",
+      "edits": [
+        {
+          "offset": 4492,
+          "before": 3,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sport_Coupe_Basic/Vehicle_sport_coupe_Basic_Def.uasset",
+      "before_sha256": "0dc058c8630063600ea528a9939afebb0b2e18ece94f1a34dce6cfe23f155120",
+      "after_sha256": "816212a52f117132e6ebbe821c6539b4feb1eda04b5b3291e0053087eab83c6f",
+      "edits": [
+        {
+          "offset": 4497,
+          "before": 3,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Sport_Coupe_Racer/Vehicle_sport_coupe_racer_Def.uasset",
+      "before_sha256": "78d5b81d1f9dd56daa9ff9fe1f796f06785013f96a35e9e4f473c5c7db092d26",
+      "after_sha256": "4e4f8778d01bec9f20bd6ff078e3b902439214068b34db72e47af32f3d37028a",
+      "edits": [
+        {
+          "offset": 4539,
+          "before": 3,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Classic_Apoc/Vehicle_Truck_Classic_Apoc_Def.uasset",
+      "before_sha256": "1d5cb7059bb36993d3377d31cf791bfaceb6219cee7934e3fab0f11fd045d778",
+      "after_sha256": "ca289e483ebb4ff1a1f82dff8191c874b6d947c3f83e62e27e8a93aedd2a8e4b",
+      "edits": [
+        {
+          "offset": 4673,
+          "before": 29,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Classic_Apoc/Vehicle_Truck_Classic_Apoc_Resto_Def.uasset",
+      "before_sha256": "3b630ce5f53a384956ee13f58efbced51b3031adb4f5ccee3a40b5b912b56085",
+      "after_sha256": "e3d77faff72f738539b6113464408109e2f0941cf10cf4280b6e4a1aace9e4c3",
+      "edits": [
+        {
+          "offset": 4691,
+          "before": 26,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Classic_Basic/Vehicle_Truck_Classic_Basic_Def.uasset",
+      "before_sha256": "4bf32774a3f97a6c687ba8ca0bc8344ef4105d8174e55f853dc7703359e4a9cb",
+      "after_sha256": "52f14b566468ed25d6475f57d3e9eb19585d078f9266389ba670c0a1acd471ac",
+      "edits": [
+        {
+          "offset": 4687,
+          "before": 26,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Military/Vehicle_Truck_Military_Basic_Def.uasset",
+      "before_sha256": "023972653d3b7f2bd157c281d9201f940d6f85e62bb9001ca8d8e890eb690b78",
+      "after_sha256": "c16530c2baaee0570244557f558fbb1e42e4e651b5504a580b31a578746b37f5",
+      "edits": [
+        {
+          "offset": 4653,
+          "before": 37,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Military_Apoc/Vehicle_Truck_Military_Apoc_Def.uasset",
+      "before_sha256": "c38933f47a2398b43ddfd9d4b3105e9864da9bf3562d0a103b95178cd759470f",
+      "after_sha256": "e858900618bd25c86f12a4f78514dee090d4cb04723b619589022e6c3ec362a5",
+      "edits": [
+        {
+          "offset": 4651,
+          "before": 37,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Modern_Apoc/Vehicle_Truck_Modern_Apoc_Def.uasset",
+      "before_sha256": "1c7f60fff0105e1e9be7f3c633ac21269cf56483821fbe1c7b66dec7ae70654a",
+      "after_sha256": "a5f54d88de074d61b743fb9408f654e85332ed1fa8a019809d6c791aef13cf63",
+      "edits": [
+        {
+          "offset": 4596,
+          "before": 1,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Modern_Basic/Vehicle_Truck_Modern_Basic_Def.uasset",
+      "before_sha256": "30295ed94aa2920e3247dec4a88a480f2237c9a2325e50671eed13fd6b46e0d9",
+      "after_sha256": "689944ee15f54f78247d7a339bd956199d2bcf85dd1c7abd207f20663286e552",
+      "edits": [
+        {
+          "offset": 4636,
+          "before": 39,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Modern_Basic/Vehicle_Truck_Modern_Retailer_Def.uasset",
+      "before_sha256": "518563243e53b47581a7a28038fb697daa586c3f901fc5158ea79e5a510de5a5",
+      "after_sha256": "22b428c6e74637ae766b66fb6f863e8b9839ae88e897c9ed11df694d8b5d3ee5",
+      "edits": [
+        {
+          "offset": 4672,
+          "before": 39,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Modern_MidSize/Vehicle_Truck_Modern_MidSize_Basic_Def.uasset",
+      "before_sha256": "0a1d3bdf9ddc1f4504f525e5741d9acd3e67a3ea27c0765e83e2b2cb250e79e1",
+      "after_sha256": "28c472977bd0b19ad2ee3c4db87f17325a353c119ffab3513ff9a2bd02ec0f03",
+      "edits": [
+        {
+          "offset": 4733,
+          "before": 27,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Truck_Modern_Utility/Vehicle_Truck_Modern_Utility_Def.uasset",
+      "before_sha256": "ad427dbb5adb4ee72a5d365b4a7a2049d26cc718c582ddea88fdd784f8511b8d",
+      "after_sha256": "45448dc69d9845e42ad999ce40af70155c11347d0d1ff0741cd03d63f7fb0800",
+      "edits": [
+        {
+          "offset": 4701,
+          "before": 33,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_Ambulance/van_ambulance_Def.uasset",
+      "before_sha256": "7759f7da9776e4afe3bf6bc01d37efaad873478217135d09a716b458345c117a",
+      "after_sha256": "5cd9ba2682c29c7d8c5fc09470883769d681a83138d48c42ee4532623a637d9a",
+      "edits": [
+        {
+          "offset": 4567,
+          "before": 120,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_Ambulance/van_ambulance_bloodmobile_Def.uasset",
+      "before_sha256": "0a5ea9cd5af680d9db7924c277caabda28079db49c6c5782c77513fe59f41421",
+      "after_sha256": "9738bdc39d3a54cf76d04a713b35d194b5a1fc36e172e690857984bdf7f16501",
+      "edits": [
+        {
+          "offset": 4603,
+          "before": 120,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_Apoc/van_apoc_Def.uasset",
+      "before_sha256": "a96dc8426d9d8964798dcdbf4d0c661b7763dd8bcc0afd5e2a9f04282116e56b",
+      "after_sha256": "bc675ab24d56f0d0ee81604839d1388449db3c7327ae8fb9f4a9a55eabf82127",
+      "edits": [
+        {
+          "offset": 4438,
+          "before": 73,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_Cargo/van_cargo_Def.uasset",
+      "before_sha256": "ff4efb51ceae56b81d181a3f924e15385402916505ebf4e223affc04270f6766",
+      "after_sha256": "e923b3f140a14422f303bbef1177f6a42f8146cd758b97c851f9ca4bc18e266d",
+      "edits": [
+        {
+          "offset": 4440,
+          "before": 120,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_Cargo/van_cargo_retailer_Def.uasset",
+      "before_sha256": "ce31956779f8202c185221bbf280bcf319286e5579c550b7a455c4e26a6f83aa",
+      "after_sha256": "dde6ad3cf6e84cb024854ac01252222d2559132229197c1e62cc01bb5a67cb65",
+      "edits": [
+        {
+          "offset": 4467,
+          "before": 120,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_Handyman/van_handyman_Def.uasset",
+      "before_sha256": "96d5cf91a5a6eb98fe43b4885799bfa066ef473b04630f8cfce346ae41e3f571",
+      "after_sha256": "617935b849408f3b92ef815f903047463124058dda6c11a40376203f87f66a50",
+      "edits": [
+        {
+          "offset": 4462,
+          "before": 120,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "path": "StateofDecay2/Content/Art/Driveables/Van_News/van_news_Def.uasset",
+      "before_sha256": "a6979d8fddb72ce0f0b79221a385d51a2b94e28ca6c99feee9b9e378a84a815f",
+      "after_sha256": "7310f702e474342fd5859f1698e7a2879eb5212180582db26ed54b1742cdc82b",
+      "edits": [
+        {
+          "offset": 4433,
+          "before": 120,
+          "after": 100,
+          "type": "int32"
+        }
+      ]
+    }
+  ]
+}

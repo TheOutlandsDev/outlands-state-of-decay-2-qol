@@ -1,0 +1,328 @@
+{
+  "schema": 1,
+  "name": "Outlands State of Decay 2 QOL",
+  "version": "0.1.0",
+  "steam_app_id": 495420,
+  "steam_build_id": "16535856",
+  "status": "experimental-static-validated",
+  "mods": [
+    {
+      "file": "002-BaseLightsAlwaysOn_P.pak",
+      "input_sha256": "27da47b8bf0f2f02861699c1361a9f927de850095c61d4cf06458adb932c3725",
+      "output_sha256": "27da47b8bf0f2f02861699c1361a9f927de850095c61d4cf06458adb932c3725",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/547",
+      "metadata": {
+        "author": "TheNeru",
+        "display_name": "Base Lights Always On",
+        "pak_name": "BaseLightsAlwaysOn",
+        "version": "2.1.0",
+        "spawn_actor": [
+          "/Game/TNRUConsolidatedMods/BLAON/TNRUBaseLightsAlwaysOn"
+        ]
+      }
+    },
+    {
+      "file": "003-ImprovedBaseFacilities_P.pak",
+      "input_sha256": "3e324658a31804d320c32e2a6c2e7a3fa85c0f334ce7bd0d47c242d27da0c031",
+      "output_sha256": "3e324658a31804d320c32e2a6c2e7a3fa85c0f334ce7bd0d47c242d27da0c031",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/332",
+      "metadata": {
+        "author": "TheNeru",
+        "display_name": "Improved Base Facilities",
+        "pak_name": "ImprovedBaseFacilities",
+        "version": "1.3.0"
+      }
+    },
+    {
+      "file": "010-Expand_Your_Base_Mod_P.pak",
+      "input_sha256": "14d4b41b981a1e979a21ee697ed30d6f9711fdbcb0ec986620fa2588f93a20f9",
+      "output_sha256": "14d4b41b981a1e979a21ee697ed30d6f9711fdbcb0ec986620fa2588f93a20f9",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/users/91531968?tab=user+files",
+      "metadata": {
+        "author": "Lucifer and ZOD C 137",
+        "display_name": "Expand Your Base Mod",
+        "pak_name": "Expand_Your_Base_Mod",
+        "version": "1.0.0",
+        "spawn_actor": [
+          "/Game/ZodsTestPanel/BIGGERBASES"
+        ]
+      }
+    },
+    {
+      "file": "011-Resident_Evil_Integrated_Mod_P.pak",
+      "input_sha256": "24c4d0f8d04d83f939e80a26bc93f0f093fff36e0fb738d37510e70661ff7c14",
+      "output_sha256": "24c4d0f8d04d83f939e80a26bc93f0f093fff36e0fb738d37510e70661ff7c14",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/users/91531968?tab=user+files",
+      "metadata": {
+        "author": "ZOD C 137 & Heilos & jZ",
+        "display_name": "Resident Evil Mod",
+        "pak_name": "Resident_Evil_Integrated_Mod",
+        "version": "1.0.1",
+        "spawn_actor": [
+          "/Game/Welcomettohell/Mod/Stealer/Get/Deeper/KeepDiggeing/KeepDigging/KeepDigging/KeepDigging/KeepDigging/You/Filthy/Mole/YouFoundME0_0/StealMe"
+        ],
+        "new_outfit": [
+          [
+            "/game/art/characters/outfits/items/bodies/generated/military/UMBMilitary/UMBMilitary",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/military/UMBMilitary2/UMBMilitary2",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/CombatHelmet/UMB_CombatHelmet/UMB_CombatHelmet",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/CombatHelmet/UMB_CombatHelmet_M/UMB_CombatHelmet_M",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Bodies/Generated/Military/Leon/Leon_01Z/Leon_01Z",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Bodies/Generated/Military/Leon/Leon_02Z/Leon_02Z",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Bodies/Generated/Military/Claire/Claire_01z/Claire_01z",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Bodies/Generated/Wesker/Wesker_01z/Wesker_01z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Chris/Chris_01z/Chris_01z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Jill/Jill_01z/Jill_01z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/hats/generated/Jill/H_Jill_01z/H_Jill_01z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Chris/tshirt_Chris/tshirt_Chris",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Alpha/Alpha_01z/Alpha_01z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Alpha/Alpha_02z/Alpha_02z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Alpha/Alpha_03z/Alpha_03z",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/Alpha/Alpha_04z/Alpha_04z",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "file": "012-4CoreSpec_P.pak",
+      "input_sha256": "a4dd680f0059226aae7061169bda686449573b82d3610fcabf741b7664ff12b0",
+      "output_sha256": "a4dd680f0059226aae7061169bda686449573b82d3610fcabf741b7664ff12b0",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/users/1663693?tab=user+files",
+      "metadata": {
+        "author": "TheNeru",
+        "display_name": "4 Core Specialization",
+        "pak_name": "4CoreSpec",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "file": "023-ARMY_Outfits_Integrated_Mod_P.pak",
+      "input_sha256": "38fc5bcb027c594ce629829d06c46521fc36f8976d2c6469f3dcbe52c1f6fa0f",
+      "output_sha256": "38fc5bcb027c594ce629829d06c46521fc36f8976d2c6469f3dcbe52c1f6fa0f",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/495",
+      "metadata": {
+        "author": "ZOD C 137",
+        "display_name": "ARMY Outfits Integrated",
+        "pak_name": "ARMY_Outfits_Integrated_Mod",
+        "version": "1.0.6",
+        "spawn_actor": [
+          "/Game/Welcomettohell/Mod/Stealer/Get/Deeper/KeepDiggeing/KeepDigging/KeepDigging/KeepDigging/KeepDigging/You/Filthy/Mole/YouFoundME0_0/StealMe_Army"
+        ],
+        "new_outfit": [
+          [
+            "/game/art/characters/outfits/items/bodies/generated/military/Digimilitary3/Digimilitary3",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/military/Digimilitary4/Digimilitary4",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/military/Digimilitary5/Digimilitary5",
+            "0"
+          ],
+          [
+            "/game/art/characters/outfits/items/bodies/generated/military/Digimilitary6/Digimilitary6",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/CombatHelmet/NEW_CombatHelmetA/NEW_CombatHelmetA",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/CombatHelmet/NEW_CombatHelmetB/NEW_CombatHelmetB",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/CombatHelmet/NEW_CombatHelmetC/NEW_CombatHelmetC",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/CombatHelmet/NEW_CombatHelmetD/NEW_CombatHelmetD",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/BoonieHat_01/Winter_BoonieHat_A/Winter_BoonieHat_A",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/BoonieHat_01/Winter_BoonieHat_B/Winter_BoonieHat_B",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/BoonieHat_01/Winter_BoonieHat_C/Winter_BoonieHat_C",
+            "0"
+          ],
+          [
+            "/Game/Art/Characters/Outfits/Items/Hats/Generated/BoonieHat_01/Winter_BoonieHat_D/Winter_BoonieHat_D",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "file": "024-BetterDaybreakRewards_P.pak",
+      "input_sha256": "d2c266bce285107bffdc966389ee8cac6795e053a1f6a5cb1fbf247c799f1c94",
+      "output_sha256": "d2c266bce285107bffdc966389ee8cac6795e053a1f6a5cb1fbf247c799f1c94",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/457",
+      "metadata": {
+        "author": "HerrHuml",
+        "display_name": "Better Daybreak Rewards",
+        "pak_name": "BetterDaybreakRewards",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "file": "100-8SlotBackpacks_P.pak",
+      "input_sha256": "354c15f0ac585f9b033184b4ce23d962b56a94b6763881de524c41b96bb612c4",
+      "output_sha256": "354c15f0ac585f9b033184b4ce23d962b56a94b6763881de524c41b96bb612c4",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/346",
+      "metadata": {
+        "author": "Smokinkills",
+        "display_name": "8SlotBackpacks",
+        "pak_name": "8SlotBackpacks",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "file": "110-AuthenticAutosVSUS_P.pak",
+      "input_sha256": "a2bc6577931d962716523506e72c91cf23e37196116f59594061013f82c5455a",
+      "output_sha256": "fbb35bc53e85e409979b45df3d75beac3e4f2f3493f041178d656be593178901",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/1379",
+      "metadata": {
+        "author": "THE BANDITS",
+        "display_name": "Authentic Autos Storage - private looting preset",
+        "pak_name": "AuthenticAutosVS_US",
+        "version": "2.2.0.",
+        "spawn_actor": [
+          "/Game/AA/AAByZOD"
+        ]
+      }
+    },
+    {
+      "file": "120-AllBounty_P.pak",
+      "input_sha256": "be49a934f6a2fc93b2645de5ae34464e922aaa2e37bef73f9ca7b78dbbaa55a0",
+      "output_sha256": "be49a934f6a2fc93b2645de5ae34464e922aaa2e37bef73f9ca7b78dbbaa55a0",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/97",
+      "metadata": {
+        "display_name": "View All Bounty Tabs",
+        "version": "1.1"
+      }
+    },
+    {
+      "file": "130-TNRUClock_P.pak",
+      "input_sha256": "27f15aaa80c62974fe7e3d6551dbf0cb7385531b4585f6bf0292bf27aec05427",
+      "output_sha256": "27f15aaa80c62974fe7e3d6551dbf0cb7385531b4585f6bf0292bf27aec05427",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/498",
+      "metadata": {
+        "author": "TheNeru",
+        "display_name": "In-Game Clock",
+        "pak_name": "TNRUClock",
+        "version": "2.2.0",
+        "spawn_actor": [
+          "/Game/TheNeruMods/InGameClock/TNRUTimeClock"
+        ]
+      }
+    },
+    {
+      "file": "140-FollowerHealthBar_P.pak",
+      "input_sha256": "ab3c7122f2d174572e34a2286ebfd10437289cb3f4b70add8595ed3c8326374d",
+      "output_sha256": "ab3c7122f2d174572e34a2286ebfd10437289cb3f4b70add8595ed3c8326374d",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/606",
+      "metadata": {
+        "author": "TheNeru",
+        "display_name": "Follower Health Bar",
+        "pak_name": "FollowerHealthBar",
+        "version": "2.0.0",
+        "spawn_actor": [
+          "/Game/TNRUConsolidatedMods/HealthBarMods/FollowerHealthBars/HealthBarInYourFace"
+        ]
+      }
+    },
+    {
+      "file": "160-Brian's Longer Mission Timers_P.pak",
+      "input_sha256": "01a39bbd060fea2e2e207020e7bc1fb1f641bebcafb1367bd1578a09e5d9d54e",
+      "output_sha256": "01a39bbd060fea2e2e207020e7bc1fb1f641bebcafb1367bd1578a09e5d9d54e",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/702",
+      "metadata": {
+        "author": "Brian",
+        "display_name": "Brian's Longer Mission Timers",
+        "pak_name": "Brian's Longer Mission Timers",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "file": "170-MrYummi_FirstPersonMode_P.pak",
+      "input_sha256": "89e3cd987651a3c3d43804d72ae4c17494b385e91e776c7c85c0a0bda4075d8b",
+      "output_sha256": "89e3cd987651a3c3d43804d72ae4c17494b385e91e776c7c85c0a0bda4075d8b",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/1642",
+      "metadata": {
+        "author": "MrYummi (Discord)",
+        "display_name": "First Person Mode",
+        "pak_name": "MrYummi_FirstPersonMode",
+        "version": "1.3"
+      }
+    },
+    {
+      "file": "180-EnclaveEditorV3_P.pak",
+      "input_sha256": "0be6deb81bc88f4f374ea827ada07d0f51277395870c531a85fe8efcb1c1da8e",
+      "output_sha256": "0be6deb81bc88f4f374ea827ada07d0f51277395870c531a85fe8efcb1c1da8e",
+      "source_url": "https://www.nexusmods.com/stateofdecay2/mods/769",
+      "metadata": {
+        "author": "TheNeru",
+        "display_name": "Enclave Editor V3",
+        "pak_name": "EnclaveEditorV3",
+        "version": "3.1.5",
+        "spawn_actor": [
+          "/Game/TheNeruMods/EnclaveEditor/EESPWNR"
+        ]
+      }
+    }
+  ]
+}

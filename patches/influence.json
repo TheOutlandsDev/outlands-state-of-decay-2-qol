@@ -1,0 +1,532 @@
+{
+  "description": "Double positive activity-currency fields only; missions, prices, standing and Daybreak settings are not patched.",
+  "file": "190-2xInfluenceActivityRewards_P.pak",
+  "output_sha256": "0e1310ba9912976932509096187b9fbedf13d6df67a18364637767426547119c",
+  "metadata": {
+    "author": "Private local adjustment",
+    "display_name": "2x Influence Activity Rewards",
+    "pak_name": "Private2xInfluenceActivityRewards",
+    "version": "1.0.0",
+    "description": "Doubles positive HostResourceValue and ClientResourceValue activity rewards in four current-game reward assets. Heartland explicitly uses the modified default table. Standing, combat, mission-specific payouts, trade prices and Daybreak reward settings are not edited."
+  },
+  "patches": [
+    {
+      "path": "StateOfDecay2/Content/GameSystems/Character/CharacterStandingRewardSettings_BP.uasset",
+      "game_path": "GameSystems/Character/CharacterStandingRewardSettings_BP.uasset",
+      "before_sha256": "3be7cdca02a6f411ea56a88c271d65e9eb4c526685b59b6646cb321554ca7461",
+      "after_sha256": "4122c5c2449a57c139e360a0e2ffe808155bddc681e73a1c3e0093ff6913778f",
+      "edits": [
+        {
+          "offset": 3047,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3076,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3314,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3343,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3992,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4021,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4640,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4669,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 5298,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 5327,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 5946,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 5975,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6123,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6152,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6300,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6329,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6477,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6506,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7151,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7180,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7418,
+          "before": 15.0,
+          "after": 30.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7447,
+          "before": 15.0,
+          "after": 30.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7595,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7624,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 8259,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 8288,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 8933,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 9658,
+          "before": 2.0,
+          "after": 4.0,
+          "type": "float32"
+        },
+        {
+          "offset": 9687,
+          "before": 2.0,
+          "after": 4.0,
+          "type": "float32"
+        }
+      ]
+    },
+    {
+      "path": "StateOfDecay2/Content/GameSystems/Character/DLC3_HardMode_CharacterStandingRewardSettings_BP.uasset",
+      "game_path": "GameSystems/Character/DLC3_HardMode_CharacterStandingRewardSettings_BP.uasset",
+      "before_sha256": "21214d28f2a662e4bd4d82b75e91f9f4206b66985e76b8ad9669082c5bf0de34",
+      "after_sha256": "05f09ac41013a756896e75fe1e7bce862aa735b9dede0dbe1d57335d133320bb",
+      "edits": [
+        {
+          "offset": 1704,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 1733,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2249,
+          "before": 4.0,
+          "after": 8.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2278,
+          "before": 4.0,
+          "after": 8.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2364,
+          "before": 8.0,
+          "after": 16.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2393,
+          "before": 8.0,
+          "after": 16.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2622,
+          "before": 40.0,
+          "after": 80.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2651,
+          "before": 40.0,
+          "after": 80.0,
+          "type": "float32"
+        }
+      ]
+    },
+    {
+      "path": "StateOfDecay2/Content/GameSystems/Character/DLC3_NightmareMode_CharacterStandingRewardSettings_BP.uasset",
+      "game_path": "GameSystems/Character/DLC3_NightmareMode_CharacterStandingRewardSettings_BP.uasset",
+      "before_sha256": "07eddab77a7436c740eb34c76b76413562f1b4aeda2287830fa342d72b2daf0d",
+      "after_sha256": "9ff93a58ffad1f4377ed514ca08f2a6593a374c1005a5e7bf23ef9200fa25790",
+      "edits": [
+        {
+          "offset": 1719,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 1748,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 1949,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 1978,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2179,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2208,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2380,
+          "before": 2.0,
+          "after": 4.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2409,
+          "before": 2.0,
+          "after": 4.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2495,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2524,
+          "before": 5.0,
+          "after": 10.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2610,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2782,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2811,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2926,
+          "before": 75.0,
+          "after": 150.0,
+          "type": "float32"
+        },
+        {
+          "offset": 2955,
+          "before": 75.0,
+          "after": 150.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3156,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3185,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        }
+      ]
+    },
+    {
+      "path": "StateOfDecay2/Content/GameSystems/Character/GreenZone_CharacterStandingRewardSettings_BP.uasset",
+      "game_path": "GameSystems/Character/GreenZone_CharacterStandingRewardSettings_BP.uasset",
+      "before_sha256": "973c35478d1ad46c9abb5833e24d6b4b69b211affaeb39e46dcc8f9551517576",
+      "after_sha256": "d87fc8404ea873066038de9a2299d09c73be291b313054c41a24ac9d1b4599fb",
+      "edits": [
+        {
+          "offset": 3077,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3106,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3344,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 3373,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4042,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4071,
+          "before": 25.0,
+          "after": 50.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4710,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 4739,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 5388,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 5417,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6056,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6085,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6233,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6262,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6410,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6439,
+          "before": 20.0,
+          "after": 40.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6587,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 6616,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7281,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7310,
+          "before": 10.0,
+          "after": 20.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7548,
+          "before": 15.0,
+          "after": 30.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7577,
+          "before": 15.0,
+          "after": 30.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7725,
+          "before": 200.0,
+          "after": 400.0,
+          "type": "float32"
+        },
+        {
+          "offset": 7754,
+          "before": 200.0,
+          "after": 400.0,
+          "type": "float32"
+        },
+        {
+          "offset": 8409,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 8438,
+          "before": 100.0,
+          "after": 200.0,
+          "type": "float32"
+        },
+        {
+          "offset": 9103,
+          "before": 50.0,
+          "after": 100.0,
+          "type": "float32"
+        }
+      ]
+    }
+  ]
+}

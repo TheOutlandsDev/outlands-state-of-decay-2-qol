@@ -1,0 +1,13 @@
+{
+  "mod_integrator": {
+    "version": "2.2.22",
+    "url": "https://www.nexusmods.com/stateofdecay2/mods/96",
+    "sha256": "485c3e61f2b358dbbf313c08ce5a5d0adb6608eb27684006e21867bccb961f9c"
+  },
+  "asset_parser_sha256": "6c0ad0f4071a4b0c026cbc6607dfe3fc95ecc8a0bb8cdbd9f059e2036af0d8e5",
+  "mono_cecil": {
+    "version": "0.11.6",
+    "url": "https://www.nuget.org/packages/Mono.Cecil/0.11.6",
+    "sha256": "c41bdb9ffd3c5f6e17d2382c1012d73703e035e3f1100245fdd4e08c8dc6eb5b"
+  }
+}
